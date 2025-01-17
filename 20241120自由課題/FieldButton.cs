@@ -21,9 +21,6 @@ namespace _20241120自由課題
         int clear;
         int judge;
         public int ID;
-        public int ButtonName;
-
-
 
         public FieldButton(Form1 form1,int x, int y,int width,int height,int i)
         {
@@ -59,7 +56,7 @@ namespace _20241120自由課題
 
                 if (judge == 1 || judge == 2)
                 {
-                    _form1.Win(judge);
+                    _form1.Win(judge,A);
                 }
 
             }

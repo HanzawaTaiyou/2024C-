@@ -48,6 +48,9 @@ namespace _20241120自由課題
 
             }
 
+            Rule rule = new Rule(1050, 50, 200, 100);
+            Controls.Add(rule);
+
             _turn = new Turn("現在のターン数：1ターン", 780, 245 ,600 ,100);
             Controls.Add(_turn);
 
@@ -131,7 +134,7 @@ namespace _20241120自由課題
 
         }
 
-        public void Win(int judge)
+        public void Win(int judge,int turn)
         {
             if (judge == 1)
             {
@@ -142,9 +145,9 @@ namespace _20241120自由課題
                         buttons[i].BackColor = Color.Gold;
                     }
                 }
-
                 _judge.Text = "   〇の勝ちです！";
-                
+                MessageBox.Show($"  〇の勝ち！   総ターン数：{turn}ターン","結果発表");
+                Close();
             }
             else
             {
@@ -156,7 +159,8 @@ namespace _20241120自由課題
                     }
                 }
                 _judge.Text = "   ✕の勝ちです！";
-                
+                MessageBox.Show($"  ✕の勝ち！   総ターン数：{turn}ターン", "結果発表");
+                Close();
             }
 
         }

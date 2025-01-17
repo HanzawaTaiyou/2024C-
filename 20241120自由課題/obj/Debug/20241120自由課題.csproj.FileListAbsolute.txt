@@ -7,3 +7,4 @@ C:\Users\taiyo\source\repos\20241120自由課題\20241120自由課題\obj\Debug\
 C:\Users\taiyo\source\repos\20241120自由課題\20241120自由課題\obj\Debug\20241120自由課題.csproj.CoreCompileInputs.cache
 C:\Users\taiyo\source\repos\20241120自由課題\20241120自由課題\obj\Debug\20241120自由課題.exe
 C:\Users\taiyo\source\repos\20241120自由課題\20241120自由課題\obj\Debug\20241120自由課題.pdb
+C:\Users\taiyo\source\repos\20241120自由課題\20241120自由課題\obj\Debug\_20241120自由課題.Form1.resources
